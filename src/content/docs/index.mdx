@@ -1,0 +1,33 @@
+---
+title: Bien venido a mis archivos
+description: Get started building your docs site with Starlight.
+template: splash
+hero:
+  tagline: Explora informacion importate que te puede ser muy util
+  image:
+    file: ../../assets/jovanny.jpg
+  actions:
+    - text: Empezar
+      link: /guides/soportes/
+      icon: right-arrow
+      variant: primary
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Algunos temas
+
+<CardGrid stagger>
+	<Card title="Instalacion de Soportes" icon="pencil">
+		Conoce conceptos iportantes al momento de seleccionar un soporte para tv.
+	</Card>
+	<Card title="Cambio de empleado a emprendedor" icon="add-document">
+		Un proceso sencillo pero que todos lo hacemos simpre dificil
+	</Card>
+	<Card title="Pensamientos del futuro " icon="setting">
+		El fututo es incierto pero muy prometedor y siemore hay algo bueno que esperar.
+	</Card>
+	<Card title="libros recomendados" icon="open-book">
+		En los libros escontramos informacion muy valiosa que no podemos dejar perder.
+	</Card>
+</CardGrid>
